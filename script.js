@@ -20,8 +20,7 @@ function clearDisplay() {
 
 function calculate() {
   currentDisplay = eval(currentDisplay).toString
-
-    updateDisplay();
+  updateDisplay();
 }
 
 updateDisplay();
